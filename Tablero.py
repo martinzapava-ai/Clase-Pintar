@@ -30,7 +30,3 @@ canvas_result = st_canvas(
     key="canvas",
 )
 
-
-if st.button("🧹 Limpiar lienzo"):
-    st.session_state["canvas"] = None
-    st.experimental_rerun()
