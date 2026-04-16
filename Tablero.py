@@ -3,11 +3,11 @@ from streamlit_drawable_canvas import st_canvas
 
 st.set_page_config(page_title="Canvas de Dibujo", layout="centered")
 
-st.title("🖌️ Tablero de Dibujo con Streamlit")
+st.title("Tablero de Dibujo con Streamlit")
 
 st.markdown("Dibuja con el mouse en el lienzo:")
 
-# Opciones básicas
+
 stroke_width = st.slider("Grosor del pincel:", 1, 25, 5)
 stroke_color = st.color_picker("Color del pincel:", "#000000")
 bg_color = st.color_picker("Color de fondo:", "#FFFFFF")
