@@ -30,10 +30,6 @@ canvas_result = st_canvas(
     key="canvas",
 )
 
-if canvas_result.json_data is not None:
-    st.subheader("Datos del dibujo (JSON):")
-    st.json(canvas_result.json_data)
-
 
 if st.button("🧹 Limpiar lienzo"):
     st.session_state["canvas"] = None
